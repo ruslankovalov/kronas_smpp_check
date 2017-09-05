@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "620010b4a6c5f00f26dd7a5230eff84d",
+    "content-hash": "c130518b01fa6f012d7ca6c43e7e209c",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -987,6 +987,56 @@
                 "sql"
             ],
             "time": "2014-01-12T16:20:24+00:00"
+        },
+        {
+            "name": "kronas/smpp-client-bundle",
+            "version": "1.1.0",
+            "target-dir": "Kronas/SmppClientBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kronas/SmppClientBundle.git",
+                "reference": "521f9fa91c08b29d0eb61c4335dd27d1b96faf34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kronas/SmppClientBundle/zipball/521f9fa91c08b29d0eb61c4335dd27d1b96faf34",
+                "reference": "521f9fa91c08b29d0eb61c4335dd27d1b96faf34",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/framework-bundle": ">=2.2"
+            },
+            "require-dev": {
+                "symfony/yaml": ">=2.1"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Kronas\\SmppClientBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kronas",
+                    "email": "kronas.sw@gmail.com"
+                }
+            ],
+            "description": "Symfony SMPP Client Bundle",
+            "homepage": "https://github.com/kronas/SmppClientBundle",
+            "keywords": [
+                "Send SMS via SMPP"
+            ],
+            "time": "2016-07-30T10:17:21+00:00"
         },
         {
             "name": "monolog/monolog",
