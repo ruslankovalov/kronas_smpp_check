@@ -67,14 +67,3 @@ swiftmailer:
     username: '%mailer_user%'
     password: '%mailer_password%'
     spool: { type: memory }
-
-kronas_smpp_client:
-    host: "5.178.83.10"
-    port: 2778
-    login: "kidslox"
-    password: "GZpnO5H4"
-    signature: "testsms"
-    socket_timeout: 10000
-    debug:
-        transport: true
-        smpp: true

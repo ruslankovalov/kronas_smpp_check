@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c130518b01fa6f012d7ca6c43e7e209c",
+    "content-hash": "5a8e665f0da640cbd92f43a5cba0f8cd",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -990,18 +990,12 @@
         },
         {
             "name": "kronas/smpp-client-bundle",
-            "version": "1.1.0",
+            "version": "dev-smpp_lib",
             "target-dir": "Kronas/SmppClientBundle",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kronas/SmppClientBundle.git",
-                "reference": "521f9fa91c08b29d0eb61c4335dd27d1b96faf34"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/kronas/SmppClientBundle/zipball/521f9fa91c08b29d0eb61c4335dd27d1b96faf34",
-                "reference": "521f9fa91c08b29d0eb61c4335dd27d1b96faf34",
-                "shasum": ""
+                "url": "https://github.com/ruslankovalov/SmppClientBundle.git",
+                "reference": "6c74ee30c219b8f8ec10e7271250a5458ff1727e"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1021,7 +1015,6 @@
                     "Kronas\\SmppClientBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1036,7 +1029,7 @@
             "keywords": [
                 "Send SMS via SMPP"
             ],
-            "time": "2016-07-30T10:17:21+00:00"
+            "time": "2017-09-11 07:18:17"
         },
         {
             "name": "monolog/monolog",
@@ -2417,9 +2410,18 @@
             "time": "2017-08-28T11:33:29+00:00"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "2.0",
+            "alias_normalized": "2.0.0.0",
+            "version": "dev-smpp_lib",
+            "package": "kronas/smpp-client-bundle"
+        }
+    ],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "kronas/smpp-client-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
