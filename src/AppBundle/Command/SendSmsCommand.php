@@ -44,15 +44,15 @@ class SendSmsCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $phone = $input->getArgument('phone');
-        $operator = $input->getArgument('operator');
         $message = $input->getArgument('message');
+        $operator = $input->getArgument('operator');
         $sender = $input->getArgument('sender');
         $encoding = $input->getArgument('encoding');
         $dataCoding = $input->getArgument('data_coding');
         if ($operator == 'kyivstar') {
             $smpp = new SmppTransmitter([['5.178.83.10'], 2778, 1000], 'kidslox', 'GZpnO5H4', $sender, '', ['transport' => true, 'smpp' => true]);
         } elseif ($operator == 'vip') {
-            $smpp = new SmppTransmitter([['77.243.16.54'], 2775, 1000], 'kids-lox', '6wbr-4', $sender, '',['transport' => true, 'smpp' => true]);
+            $smpp = new SmppTransmitter([['77.243.16.54'], 2775, 1000], 'kids-lox', '6wbr-4', $sender, 'abc12cba',['transport' => true, 'smpp' => true]);
         } else {
             throw new InvalidArgumentException('There is no place for "else". Operators should be very specific.');
         }
