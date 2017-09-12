@@ -995,7 +995,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ruslankovalov/SmppClientBundle.git",
-                "reference": "dcd3ee006eb18a8705302c4dee3bfc02b639bfda"
+                "reference": "1f42821c6f000744062d3c1ace3a2a9e928df5af"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -1029,7 +1029,7 @@
             "keywords": [
                 "Send SMS via SMPP"
             ],
-            "time": "2017-09-12 08:37:07"
+            "time": "2017-09-12 14:13:50"
         },
         {
             "name": "monolog/monolog",
